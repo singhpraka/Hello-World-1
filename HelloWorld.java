@@ -29,7 +29,8 @@ public class HelloWorld {
                                                    "did you do your homework?",
                                                    "good morning.", "what's up?",
                                                    "merhabalar!!", "welcome!",
-                                                   "allons-y!", "geronimo!");
+                                                   "happy Thanksgiving!",
+						   "allons-y!", "geronimo!");
 			int randNum = generator.nextInt(greetList.size());
 			
 			System.out.printf("%s says \"%s\"\n", name, greetList.get(randNum));
