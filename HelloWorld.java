@@ -10,14 +10,15 @@ public class HelloWorld {
 		ArrayList<String> nameList = new ArrayList<String>();
 		Random generator = new Random();
 		
-        nameList.add("Alumni: Ronnie Nigash");
-        nameList.add("Mr. Chee");
-        nameList.add("Joe Van Dyke");
-        nameList.add("Binnur");
-        nameList.add("Tarkan Al-Kazily");
-        nameList.add("Alumni: Faust");
-        nameList.add("Ben DeVries");
-        nameList.add("Alumni: Keet Curtis");
+	        nameList.add("Alumni: Ronnie Nigash");
+	        nameList.add("Mr. Chee");
+	        nameList.add("Joe Van Dyke");
+	        nameList.add("Binnur");
+	        nameList.add("Tarkan Al-Kazily");
+	        nameList.add("Alumni: Faust");
+	        nameList.add("Ben DeVries");
+	        nameList.add("Jack Stratton");
+	        nameList.add("Alumni: Keet Curtis");
 		
 		loopDaLoop(nameList, generator);
 	}
