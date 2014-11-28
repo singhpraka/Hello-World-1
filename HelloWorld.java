@@ -27,12 +27,12 @@ public class HelloWorld {
 	private static void loopDaLoop (ArrayList<String> list, Random generator){
 		for(String name : list){
 			
-			List<String> greetList = Arrays.asList("hi!", "how are you?",
-                                                   "did you do your homework?",
-                                                   "good morning.", "what's up?",
-                                                   "merhabalar!!", "welcome!",
-                                                   "happy Thanksgiving!",
-						   "allons-y!", "geronimo!", "Greetings, fellow being.");
+			List<String> greetList = Arrays.asList("hi!", "how are you?", "yo!", "good day.", 
+                                                   "did you do your homework?", "hello.", 
+                                                   "good morning.", "what's up?", 
+                                                   "merhabalar!!", "welcome!", "salutations.", 
+                                                   "happy Thanksgiving!", "hey.", 
+                                                   "allons-y!", "geronimo!", "Greetings, fellow being.");
 			int randNum = generator.nextInt(greetList.size());
 			
 			System.out.printf("%s says \"%s\"\n", name, greetList.get(randNum));
