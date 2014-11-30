@@ -27,7 +27,6 @@ public class HelloWorld {
 
 	private static void loopDaLoop (ArrayList<String> list, Random generator){
 		for(String name : list){
-			
 			List<String> greetList = Arrays.asList("hi!", "how are you?",
                                                    "did you do your homework?",
                                                    "good morning.", "what's up?",
