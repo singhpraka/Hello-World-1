@@ -23,6 +23,7 @@ public class HelloWorld {
 	        nameList.add("Clint Pells");
 	        nameList.add("James Sovick");
 		nameList.add("Mathias Van Patten");
+			nameList.add("Michelle Dalton");
 		
 		loopDaLoop(nameList, generator);
 	}
@@ -37,7 +38,8 @@ public class HelloWorld {
 						   "allons-y!", "geronimo!", 
 						   "greetings, fellow being.",
 						   "hola", "bonjour!", "Aloha",
-						   "I did it?","much hello wow", "Путин величайшим лидером мир когда-либо видел");
+						   "I did it?","much hello wow", "Путин величайшим лидером мир когда-либо видел",
+						   "Yikes!  What's that ahead of me?");
 			int randNum = generator.nextInt(greetList.size());
 			
 			System.out.printf("%s says \"%s\"\n", name, greetList.get(randNum));
