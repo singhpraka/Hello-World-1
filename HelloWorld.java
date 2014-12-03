@@ -1,9 +1,7 @@
 // @author Ronnie Nigash
 // Our first push/pull test file
 // Makes a list to add names to, then prints the list to the console with different greetings for each name
-import java.util.ArrayList;
 import java.util.*;
-import java.util.Random;
 public class HelloWorld {
 	
 	public static void main(String[] Args){
@@ -22,6 +20,10 @@ public class HelloWorld {
 	        nameList.add("Noah Levine");
 	        nameList.add("Michaela Leung");
 	        nameList.add("Clare Liguori");
+	        nameList.add("Clint Pells");
+	        nameList.add("James Sovick");
+		nameList.add("Mathias Van Patten");
+		nameList.add("Michelle Dalton");
 		
 		loopDaLoop(nameList, generator);
 	}
@@ -35,7 +37,11 @@ public class HelloWorld {
                                                    "happy Thanksgiving!",
 						   "allons-y!", "geronimo!", 
 						   "greetings, fellow being.",
-						   "hola", "bonjour!");
+						   "hola", "bonjour!", "Aloha",
+						   "Yikes!  What's that ahead of me?",
+						   "I did it?","much hello wow",
+						   "Путин величайшим лидером мир когда-либо видел",
+						   "Whats good guys?");
 			int randNum = generator.nextInt(greetList.size());
 			
 			System.out.printf("%s says \"%s\"\n", name, greetList.get(randNum));
