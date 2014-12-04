@@ -44,7 +44,8 @@ public class HelloWorld {
 						   "I did it?","much hello wow",
 						   "Путин величайшим лидером мир когда-либо видел",
 						   "hello everyone!",
-						   "Whats good guys?");
+						   "Whats good guys?"
+						   "cows and more cows");
 			int randNum = generator.nextInt(greetList.size());
 			
 			System.out.printf("%s says \"%s\"\n", name, greetList.get(randNum));
