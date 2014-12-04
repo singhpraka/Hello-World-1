@@ -37,16 +37,17 @@ public class HelloWorld {
                                                    "good morning.", "what's up?",
                                                    "merhabalar!!", "welcome!",
                                                    "happy Thanksgiving!",
-                                "allons-y!", "geronimo!", 
-               "greetings, fellow being.",
-               "hola", "bonjour!", "Aloha",
-               "Yikes!  What's that ahead of me?",
-               "I did it?","much hello wow",
-               "Путин величайшим лидером мир когда-либо видел",
-               "Whats good guys?", "Wazzzzp!");
-      int randNum = generator.nextInt(greetList.size());
-      
-      System.out.printf("%s says \"%s\"\n", name, greetList.get(randNum));
-    }
-  }
+						   "allons-y!", "geronimo!", 
+						   "greetings, fellow being.",
+						   "hola", "bonjour!", "Aloha",
+						   "Yikes!  What's that ahead of me?",
+						   "I did it?","much hello wow",
+						   "Путин величайшим лидером мир когда-либо видел",
+						   "hello everyone!",
+						   "Whats good guys?");
+			int randNum = generator.nextInt(greetList.size());
+			
+			System.out.printf("%s says \"%s\"\n", name, greetList.get(randNum));
+		}
+	}
 }
