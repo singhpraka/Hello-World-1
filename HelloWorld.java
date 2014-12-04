@@ -41,6 +41,7 @@ public class HelloWorld {
 						   "Yikes!  What's that ahead of me?",
 						   "I did it?","much hello wow",
 						   "Путин величайшим лидером мир когда-либо видел",
+						   "hello everyone!",
 						   "Whats good guys?");
 			int randNum = generator.nextInt(greetList.size());
 			
