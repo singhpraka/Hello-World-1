@@ -24,6 +24,7 @@ public class HelloWorld {
 	        nameList.add("James Sovick");
 		nameList.add("Mathias Van Patten");
 		nameList.add("Michelle Dalton");
+		nameList.add("Braden Ploger");
 		
 		loopDaLoop(nameList, generator);
 	}
