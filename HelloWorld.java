@@ -24,7 +24,7 @@ public class HelloWorld {
 	        nameList.add("James Sovick");
 		nameList.add("Mathias Van Patten");
 		nameList.add("Michelle Dalton");
-		
+		nameList.add("Kawin Nikomborirak");	
 		loopDaLoop(nameList, generator);
 	}
 
@@ -40,6 +40,7 @@ public class HelloWorld {
 						   "hola", "bonjour!", "Aloha",
 						   "Yikes!  What's that ahead of me?",
 						   "I did it?","much hello wow",
+						   "MOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
 						   "Путин величайшим лидером мир когда-либо видел",
 						   "Whats good guys?");
 			int randNum = generator.nextInt(greetList.size());
