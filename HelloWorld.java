@@ -25,7 +25,8 @@ public class HelloWorld {
 	        nameList.add("Mathias Van Patten");
 			nameList.add("Michelle Dalton");
 			nameList.add("Ryan Holt");
-		
+			nameList.add("Olivia Pells");
+
 		loopDaLoop(nameList, generator);
 	}
   private static void loopDaLoop (ArrayList<String> list, Random generator){
@@ -43,7 +44,7 @@ public class HelloWorld {
                                              "Путин величайшим лидером мир когда-либо видел",
                                              "hello everyone!",
                                              "Whats good guys?",
-    		  							     "Wadup");
+    		  							     "Wadup","Buenos dias");
 			int randNum = generator.nextInt(greetList.size());
 			
 			System.out.printf("%s says \"%s\"\n", name, greetList.get(randNum));
