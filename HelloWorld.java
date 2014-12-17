@@ -42,7 +42,7 @@ public class HelloWorld {
 						   "Yikes!  What's that ahead of me?",
 						   "I did it?","much hello wow",
 						   "Путин величайшим лидером мир когда-либо видел",
-						   "Whats good guys?" "sup?");
+						   "Whats good guys?","sup?");
 			int randNum = generator.nextInt(greetList.size());
 			
 			System.out.printf("%s says \"%s\"\n", name, greetList.get(randNum));
