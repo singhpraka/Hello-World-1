@@ -22,6 +22,7 @@ public class HelloWorld {
 	        nameList.add("Clare Liguori");
 	        nameList.add("Clint Pells");
 	        nameList.add("James Sovick");
+			nameList.add("Braden Ploger");
 		nameList.add("Mathias Van Patten");
 		nameList.add("Michelle Dalton");
 		nameList.add("Kate Merifield");
@@ -47,7 +48,9 @@ public class HelloWorld {
                                                    "���������� �������������������� �������������� ������ ����������-�������� ����������",
                                                    "Whats good guys?","sup?",
                                             	   "hello everyone!",
-                                            	   "Wadup","Buenos dias", "Hiya there!");
+                                            	   "Wadup","Buenos dias", "Hiya there!", 
+                                            	   "How you all doin?");
+
 
 			int randNum = generator.nextInt(greetList.size());
 			
