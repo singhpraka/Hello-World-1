@@ -26,6 +26,7 @@ public class HelloWorld {
 		nameList.add("Braden Ploger");
 		nameList.add("Mathias Van Patten");
 		nameList.add("Michelle Dalton");
+        nameList.add("James Slattery");
 		nameList.add("Kate Merifield");
 		nameList.add("Ryan Holt");
 		nameList.add("Olivia Pells");
@@ -37,8 +38,7 @@ public class HelloWorld {
 
 	private static void loopDaLoop(ArrayList<String> list, Random generator) {
 		for (String name : list) {
-			List<String> greetList = Arrays
-					.asList("hi!",
+			List<String> greetList = Arrays.asList("hi!",
 							"how are you?",
 							"did you do your homework?",
 							"good morning.",
@@ -58,7 +58,7 @@ public class HelloWorld {
 							"���������� �������������������� �������������� ������ ����������-�������� ����������",
 							"Whats good guys?", "sup?", "hello everyone!",
 							"Wadup", "Buenos dias", "Hiya there!",
-							"How you all doin?",
+							"Hello Guys!!!", "How you all doin?",
 							"MOOOOOOOOOOOOOOOOOOOOOOOOOOOOO");
 
 			int randNum = generator.nextInt(greetList.size());
