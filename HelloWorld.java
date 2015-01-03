@@ -51,7 +51,7 @@ public class HelloWorld {
 							"geronimo!",
 							"greetings, fellow being.",
 							"hola",
-							"bonjour!",
+							"bonjour!","cows and more cows", 
 							"Aloha",
 							"Yikes!  What's that ahead of me?",
 							"I did it?",
