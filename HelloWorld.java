@@ -4,7 +4,7 @@
 import java.util.*;
 
 public class HelloWorld {
-
+	
 	public static void main(String[] Args) {
 		ArrayList<String> nameList = new ArrayList<String>();
 		Random generator = new Random();
@@ -53,7 +53,7 @@ public class HelloWorld {
 							"hola",
 							"bonjour!","cows and more cows", 
 							"Aloha",
-							"Yikes!  What's that ahead of me?",
+							"Eclipse me",
 							"I did it?",
 							"much hello wow",
 							"���������� �������������������� �������������� ������ ����������-�������� ����������",
